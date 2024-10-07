@@ -1,0 +1,234 @@
+body{
+    background-color: rgb(240,242,245);
+}
+.facbook-main{
+    height: max-content;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.leftbar{
+    height: 92vh;
+    width: 25%;
+    position: sticky;
+    top: 50px;
+    overflow-y: auto;
+    padding: 25px 5px;
+}
+.leftbar p{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding: 4px 20px;
+    margin: 0;
+}
+.leftbar p:hover{
+    background-color: rgb(217, 225, 231);
+}
+.leftside-pic{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(11,134,238);
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.leftside-text span{
+    color: rgb(11,134,238);
+    font-weight: lighter;
+    font-size: 12px;
+}
+.leftbar p:nth-child(1) .leftside-pic{
+    background-image: url(../images/ahmad.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.leftbar p:nth-child(15) .leftside-pic{
+    background-image: url(../images/HBA.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center center;
+}
+
+
+
+.rightbar{
+    /* background-color: red; */
+    width: 25%;
+    height: 92vh;
+    position: sticky;
+    top: 50px;
+    padding: 25px 5px;
+}
+.contact-icons{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact-icons div{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 14px;
+    cursor: pointer;
+}
+.contact-icons div:hover{
+    background-color: rgb(238, 238, 238);
+}
+.rightbar p{
+    display: flex;
+}
+.rightbar p .leftside-pic{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.rightbar p:nth-child(4) .leftside-pic{
+    background-image: url(../images/ahmad.jpg);
+}
+.rightbar p:nth-child(5) .leftside-pic{
+    background-image: url(../images/Hassan.jpg);
+}
+.rightbar p:nth-child(6) .leftside-pic{
+    background-image: url(../images/kashaf.jpg);
+}
+.rightbar p:nth-child(7) .leftside-pic{
+    background-image: url(../images/talha.jpg);
+}
+.rightbar p .leftside-pic span{
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgb(35, 124, 35);
+}
+
+
+
+.home{
+    width: 50%;
+    height: max-content;
+}
+.posts_main{
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+}
+.post{
+    width: 100px;
+    height: 155px;
+    margin: 0 4px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    overflow: hidden;
+    box-shadow: inset 0px 10px 0px #999;
+}
+.post img{
+    width: 100%;
+    height: 100%;
+}
+
+.create-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-image: url(../images/ahmad.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.col-md-10 input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    outline: none;
+    background-color: rgb(240,242,245);
+}
+.col-md-10 input:hover{
+    background-color: rgb(217, 225, 231);
+}
+
+.create-tab{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.create-tab i{
+    font-size: 20px;
+}
+.create-tab:hover{
+    background-color: rgb(240,242,245);
+}
+.room_tab{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.room_tab div{
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 2px solid rgb(203, 224, 241);
+}
+.online-frnd div{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.online-frnd:nth-child(2) div{
+    background-image: url(../images/ahmad.jpg);
+}
+.online-frnd:nth-child(3) div{
+    background-image: url(../images/Hassan.jpg);
+}
+.online-frnd:nth-child(4) div{
+    background-image: url(../images/kashaf.jpg);
+}
+.online-frnd:nth-child(5) div{
+    background-image: url(../images/talha.jpg);
+}
+.online-frnd div span{
+    padding: 4px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgb(35, 124, 35);
+}
+.post_person_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-image: url(../images/ahmad.jpg); */
+    background-size: cover;
+    background-position: center center;
+}
